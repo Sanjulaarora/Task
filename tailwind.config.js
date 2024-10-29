@@ -12,6 +12,9 @@ module.exports = {
         foreground: "var(--foreground)",
       },
     },
-  },
+      screens: {
+        "media1089": "1090px",
+      }
+    },
   plugins: [],
 };

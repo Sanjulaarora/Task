@@ -18,7 +18,24 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Testing the Project
+
+- Unit Tests - To run unit tests (assuming you’re using Jest with React Testing Library):
+
+```bash
+# using npm
+npm run test
+
+# using yarn
+yarn test
+```
+
+## Running Test in CI
+
+In a Continuous Integration (CI) environment, ensure your scripts in package.json are configured:
+
+- **Test command**: "test": "jest --ci"
+- **Build command**: "build": "next build"
 
 ## Learn More
 
