@@ -29,6 +29,9 @@ const Home = () => {
 
   return (
     <div className="w-full mx-auto">
+      
+
+      {/* Header Section */}
       <header className="flex justify-between h-[70px] bg-white p-10 media1090:p-0">
         <div className="ml-[184px] my-auto hidden media1090:visible">
           <Image src="/statusqueen.png" width={150} height={40} alt="status queen"/>
@@ -70,6 +73,9 @@ const Home = () => {
         </ul>
         <MenuIcon className="visible media1090:hidden"/>
       </header>
+
+
+      {/* Main Section */}
       <main className="flex justify-center items-center">
        <div className="flex flex-wrap mt-14 mb-24 w-[1114px] h-96">
         <div className="flex flex-col justify-center items-center w-60 h-44 bg-gradient-to-r from-[#F7849A] to-[#FE988B] mr-8 rounded-md shadow-slate-400 shadow-sm">
@@ -106,6 +112,9 @@ const Home = () => {
         </div>
        </div>
       </main>
+
+
+      {/* Hero Section */}
       <section className="flex justify-center items-center mb-20">
         <div className="w-[1412px] h-[400px] rounded-lg shadow-slate-600 shadow-lg">
           <p className="text-[#928f8f] text-center mt-6">LATEST WHATSAPP STATUS</p>
@@ -169,6 +178,9 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+
+      {/* Footer Section */}
       <footer className="bg-white p-4">
         <div className="flex justify-around">
           <ul className="flex">
